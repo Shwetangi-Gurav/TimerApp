@@ -46,6 +46,7 @@
 		D0AB96052B487CCC00D79749 /* TimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITests.swift; sourceTree = "<group>"; };
 		D0AB96072B487CCC00D79749 /* TimerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0AB96182B487E9500D79749 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		D0AB961A2B49581400D79749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +97,12 @@
 		D0AB95E92B487CCB00D79749 /* TimerApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0AB961A2B49581400D79749 /* Info.plist */,
 				D0AB95EA2B487CCB00D79749 /* TimerAppApp.swift */,
 				D0AB95EC2B487CCB00D79749 /* ContentView.swift */,
+				D0AB96182B487E9500D79749 /* TimerViewModel.swift */,
 				D0AB95EE2B487CCC00D79749 /* Assets.xcassets */,
 				D0AB95F02B487CCC00D79749 /* Preview Content */,
-				D0AB96182B487E9500D79749 /* TimerViewModel.swift */,
 			);
 			path = TimerApp;
 			sourceTree = "<group>";
@@ -424,6 +426,7 @@
 				DEVELOPMENT_TEAM = N9N8A3FG82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +456,7 @@
 				DEVELOPMENT_TEAM = N9N8A3FG82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -70,8 +70,8 @@ class TimerViewModel: ObservableObject {
                     self.timeRemaining -= 0.01
                     self.formattedTimeText = self.formatMmSsMl(counter: self.timeRemaining)
                 } else {
-                    self.stopTimer()
                     self.triggerNotification()
+                    self.stopTimer()
                 }
             }
             .store(in: &cancellables)
