@@ -20,3 +20,16 @@ To run this app, follow these steps:
     open CountdownTimerApp.xcodeproj
 3. Build and run the app in the Xcode simulator or on a physical device.
 
+## Usage
+1. Tap the "Start" button to begin the countdown timer.
+2. Tap the "Pause" button to pause the timer.
+3. Tap the "Stop" button to reset the timer.
+4. The animated ring reflects the time left, and a system notification is triggered when the timer reaches zero.
+
+## Dependencies
+- SwiftUI
+- Combine
+
+https://github.com/Shwetangi-Gurav/TimerApp/assets/40455800/78b62b65-eb3f-4e55-a089-0041322f5417
+
+
