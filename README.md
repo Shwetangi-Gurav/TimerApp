@@ -30,6 +30,9 @@ To run this app, follow these steps:
 - SwiftUI
 - Combine
 
-https://github.com/Shwetangi-Gurav/TimerApp/assets/40455800/78b62b65-eb3f-4e55-a089-0041322f5417
+https://github.com/Shwetangi-Gurav/TimerApp/assets/40455800/226cc57f-a8dd-417d-9890-dcef9397a4dc
+
+
+
 
 
